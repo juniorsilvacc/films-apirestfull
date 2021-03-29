@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database/connection');
 const Schema = mongoose.Schema; 
 
 const FilmsSchema = Schema({
-  title: {
+  name: {
     type: String, 
   },
   director: {
@@ -13,4 +13,6 @@ const FilmsSchema = Schema({
   },
 });
 
-module.exports = mongoose.model('Films', FilmsSchema);
+const Filmes = mongoose.model('Filmes', FilmsSchema);
+
+module.exports = Filmes;
