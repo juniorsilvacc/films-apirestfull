@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="stylesheet" href="../ConsumoAPI/styles.css">
+</head>
+<body>
+
+  <div class="form_list">
+    <h2>Novo filme</h2>
+    <form>
+      <label for="name">Nome do filme:</label><br>
+      <input type="text" id="name" name="name" placeholder="Nome do filme"><br>
+
+      <label for="director">Diretor:</label><br>
+      <input type="text" id="director" name="director" placeholder="Diretor"><br>
+
+      <label for="year">Ano de lançamento:</label><br>
+      <input type="number" id="year" name="year" placeholder="Ano de lançamento">
+      <button type="button" onclick="createFilme()">Criar</button>
+    </form>
+  </div>
+
+  <div class="list_filmes">
+    <h2>Lista de filmes</h2>
+    <ul id="filmes"></ul>
+  </div>
+
+
+ 
+ 
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="../ConsumoAPI/script.js"></script>
+</body>
+</html>

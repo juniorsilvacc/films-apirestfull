@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAF9F9;
+}
+
+.list_filmes{
+  margin-left: 30px;
+}
+
+.list_filmes h2{
+  padding: 20px 0;
+}
+
+.list_filmes ul{
+  list-style: none;
+}
+
+.list_filmes ul li{
+  padding: 15px 0;
+}
+
+.list_filmes ul li:first-child{
+  padding: 0px 0;
+}
+
+.list_filmes ul li:last-child{
+  margin-bottom: 50px;
+}
+
+.form_list{
+  margin-left: 30px;
+}
+
+.form_list h2{
+  padding: 20px 0;
+}
+
+.form_list input{
+  margin-bottom: 25px;
+}
+
+.form_list input{
+  width: 300px;
+  height: 30px;
+}
+
+.form_list form button{
+  width: 60px;
+  height:30px;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: #7CFF75;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
