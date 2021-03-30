@@ -5,7 +5,7 @@ exports.searchFilmes = async (req, res) => {
   try {
     await Filmes.find({}).then((filmes) => {
       return res.status(200).json(filmes);
-    })
+    });
   } catch (error) {
     res.status(400).send({error});
   }
