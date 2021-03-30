@@ -10,7 +10,7 @@ exports.searchFilmes = async (req, res) => {
     res.status(400).send({error});
   }
 
-  //Outras formas de listagem
+  //Outras formas de fazer as demais funções
 
   /*Filmes.find({}).then((filmes) => {
     return res.json(filmes)

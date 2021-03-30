@@ -8,11 +8,4 @@ exports.selectedFilmes = async (req, res) => {
   } catch (error) {
     res.status(400).send({error})
   }
-
-  /*Filmes.findById(req.params.id, (error, filmes) => {
-    if(error) {
-      res.send(error)
-    }
-      res.json(filmes);
-  })*/
 }
